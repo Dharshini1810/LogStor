@@ -68,6 +68,18 @@
 			<artifactId>spring-kafka-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- Gson Dependency --> 
+		<dependency>
+    		<groupId>com.google.code.gson</groupId>
+    		<artifactId>gson</artifactId>
+    		<version>2.13.2</version>
+		</dependency>
+		<!-- Kafka --> 
+		<dependency>
+    		<groupId>org.apache.kafka</groupId>
+    		<artifactId>kafka_2.13</artifactId>
+    		<version>4.1.0</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
